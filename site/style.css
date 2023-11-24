@@ -1,0 +1,87 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 23px;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.header{
+    color: antiquewhite;
+    padding: 20px;
+    background: rgb(7, 168, 218);
+    box-sizing: border-box;
+    will-change: 100%;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: rgb(172, 97, 0);
+    text-decoration: none;
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(izobr/izo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-title{
+    font-size: 50px;
+}
+
+.banner-description{
+    font-size: 35px;
+}
+
+.banner-title,.banner-description{
+    color: rgb(172, 97, 0);
+    text-align: center;
+}
+.cards-section{
+    padding: 50px 0;
+
+}
+.cards-title,.cards-descritpion{
+    color: black;
+    text-align: center;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #9e90ff;
+    text-align: center;
+}
+
+.card-button{
+    background: black;
+    padding: 10px 70px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background: url(izobr/izo4.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+.copyright{
+    color: white;
+
+}

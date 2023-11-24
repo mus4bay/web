@@ -1,0 +1,27 @@
+h2 {
+        color: aquamarine;
+    }
+
+
+ol p1 {
+    color:rgb(110, 0, 201)
+}
+.shadowbox {
+    width: 20em;
+    border: 3px solid #333;
+    box-shadow: 10px 12px 6px rgb(163, 22, 22);
+    padding: 8px 12px;
+    background-image: linear-gradient(100deg rgb(126, 255, 6), rgb(33, 82, 0) 40%, rgb(16, 29, 0)); 
+}
+.voiti {
+    background-color:aquamarine;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    width: 200px;
+    text-align:center;
+    transition: all 0.5s ease-in-out;
+}
+.voiti:hover{
+    background-color: rgb(62, 177, 138)
+}
